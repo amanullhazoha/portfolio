@@ -1,0 +1,24 @@
+.info {
+  display: flex;
+  margin-top: 15px;
+
+  .icon {
+    font-size: 45px;
+    color: #ffb400;
+  }
+
+  .text {
+    margin-left: 15px;
+
+    h3 {
+      font-size: 18px;
+      color: #fff;
+      opacity: 0.7;
+      margin-bottom: 9px;
+    }
+
+    p {
+      font-size: 15px;
+    }
+  }
+}

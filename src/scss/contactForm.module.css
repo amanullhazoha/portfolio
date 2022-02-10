@@ -1,0 +1,31 @@
+.content .input {
+  width: 100%;
+  background: #2b2a2a;
+  padding: 20px 25px;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 50px;
+}
+
+.content .input::-webkit-input-placeholder {
+  text-transform: uppercase;
+}
+
+.content .input:-ms-input-placeholder {
+  text-transform: uppercase;
+}
+
+.content .input::-ms-input-placeholder {
+  text-transform: uppercase;
+}
+
+.content .input::placeholder {
+  text-transform: uppercase;
+}
+
+.content .input:focus {
+  outline: 1px solid #ffb400;
+}
+/*# sourceMappingURL=contactForm.module.css.map */

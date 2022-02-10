@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.dashboardToggleActive {
+  width: calc(100% - 50px) !important;
+  left: 50px !important;
+}
+
+@media screen and(max-width: 768px) {
+  .navActive {
+    display: block !important;
+  }
+}

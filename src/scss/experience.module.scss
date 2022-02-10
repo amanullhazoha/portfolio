@@ -1,0 +1,35 @@
+.content {
+  padding: 25px 30px 30px 40px;
+  border: 1px solid #2b2a2a;
+  border-radius: 5px;
+  margin-bottom: 30px;
+
+  .number {
+    font-size: 50px;
+    color: #ffb400;
+    font-weight: bold;
+
+    sup {
+      font-size: 35px;
+    }
+  }
+
+  p {
+    font-size: 18px;
+    color: #fff;
+    padding-left: 50px;
+    position: relative;
+    margin-bottom: 0;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 30px;
+      height: 1px;
+
+      background: #777;
+    }
+  }
+}

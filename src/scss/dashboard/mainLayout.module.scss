@@ -1,0 +1,13 @@
+#mainSection {
+  position: absolute;
+  width: calc(100% - 300px);
+  left: 300px;
+  background-color: #eaeeee;
+  transition: 0.5s;
+  min-height: 100vh;
+
+  @media screen and (max-width: 992px) {
+    width: calc(100% - 50px);
+    left: 50px;
+  }
+}

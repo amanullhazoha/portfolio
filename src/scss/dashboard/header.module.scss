@@ -1,0 +1,72 @@
+.header {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding-right: 20px;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.3);
+
+  .toggler {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .menuBtn {
+      position: relative;
+      width: 60px;
+      height: 60px;
+
+      &::after {
+        content: "\f0c9";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 600;
+        color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 26px;
+      }
+    }
+
+    h4 {
+      font-size: 26px;
+      font-weight: 500;
+      color: #000;
+    }
+  }
+
+  .user {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .userImg {
+      position: relative;
+      width: 45px;
+      height: 45px;
+
+      img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+
+    .userName {
+      padding-left: 10px;
+      h4 {
+        color: #000;
+      }
+    }
+  }
+}

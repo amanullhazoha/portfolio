@@ -1,0 +1,20 @@
+.content {
+  .input {
+    width: 100%;
+    background: #2b2a2a;
+    padding: 20px 25px;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 50px;
+
+    &::placeholder {
+      text-transform: uppercase;
+    }
+
+    &:focus {
+      outline: 1px solid #ffb400;
+    }
+  }
+}
