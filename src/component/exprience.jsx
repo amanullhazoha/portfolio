@@ -13,7 +13,7 @@ const experience = [
         id: '1dkdfj',
         count: 15,
         titleFirst: 'COMPLETE',
-        titleLast: 'PROJECTs',
+        titleLast: 'PROJECTS',
     },
 
     {

@@ -16,10 +16,10 @@ const myInfo = [
 
     {
         info: [
-            { key: 'Address', value: 'Gulshan-2, Dhaka' },
-            { key: 'Phone', value: '8801857526232' },
-            { key: 'Email', value: 'naziullahshawn135@gmail.com' },
-            { key: 'Skype', value: 'Naziullah Shawn' },
+            { key: 'Address', value: 'Kallyanpur, Dhaka' },
+            { key: 'Phone', value: '8801715378419' },
+            { key: 'Email', value: 'amanullhazoha3784@gmail.com' },
+            { key: 'Skype', value: 'Amanullha Zoha' },
             { key: 'Languages', value: 'Bangla, English' },
         ],
     },

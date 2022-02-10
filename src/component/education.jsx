@@ -4,8 +4,8 @@ import SectionHead from './sectionHead';
 
 const education = [
     {
-        id: 344,
-        date: '2020 - PRESENT',
+        id: 20,
+        date: '2021 - PRESENT',
         subject: 'WEB DEVELOPER',
         institute: 'Pondit',
         discription:

@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-curly-brace-presence */
 import { Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import classes from '../scss/homeContent.module.scss';
 import ButtonStyle from './buttonStyle';
@@ -19,13 +20,13 @@ const HomeContent = () => (
                 />
             </h2>
             <p>
-                {`I'm a Bangladesh based MERN Stack web developer & designer focused on crafting clean
+                {`I'm a Bangladesh based frontend web developer & designer focused on crafting clean
                 & user‑friendly experiences, I am passionate about building excellent software that
                 improves the lives of those around me.`}
             </p>
-            <a href="about.html">
+            <Link to="/about">
                 <ButtonStyle text="more about me" iconClass="fa-arrow-right" />
-            </a>
+            </Link>
         </div>
     </Col>
 );
