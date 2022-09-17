@@ -2,7 +2,7 @@ import { Col } from 'react-bootstrap';
 import classes from '../scss/skillProgress.module.scss';
 
 const SkillProgress = ({ skill }) => (
-    <Col lg={3} md={4} sm={6} key={skill.id}>
+    <Col lg={3} md={4} sm={6}>
         <div className={classes.content}>
             <div className={classes.circle}>
                 <svg>

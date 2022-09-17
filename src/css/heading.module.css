@@ -1,0 +1,51 @@
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+  color: #fff;
+  font-size: 56px;
+  text-transform: uppercase;
+  padding: 31px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.heading .title {
+  color: #ffb400;
+  margin-left: 14px;
+}
+
+.heading .titleBg {
+  font-size: 110px;
+  position: absolute;
+  letter-spacing: 10px;
+  top: 0;
+  z-index: -1;
+  color: rgba(255, 255, 255, 0.07);
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    padding: 0;
+  }
+  .heading .titleBg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=heading.module.css.map */

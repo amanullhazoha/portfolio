@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,UAAU,EAAE,OAAO;EACnB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;EACpB,UAAU,EAAE,KAAK;CAClB",
+    "sources": [
+        "../scss/pageLayout.module.scss"
+    ],
+    "names": [],
+    "file": "pageLayout.module.css"
+}

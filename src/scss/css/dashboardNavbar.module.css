@@ -1,0 +1,93 @@
+#navigation {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  overflow: hidden;
+}
+
+#navigation .navBg {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#navigation ul {
+  position: relative;
+  width: 100%;
+  padding: 10px 0;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#980d9b), color-stop(50%, rgba(190, 65, 88, 0.7)));
+  background: linear-gradient(180deg, #980d9b 0%, rgba(190, 65, 88, 0.7) 50%);
+}
+
+#navigation ul li {
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navigation ul li a {
+  position: relative;
+  width: 100%;
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+}
+
+#navigation ul li a .icon {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  text-align: center;
+  font-size: 24px;
+}
+
+#navigation ul li a .iconTitle {
+  height: 50px;
+  line-height: 50px;
+  position: relative;
+  display: block;
+  font-size: 18px;
+}
+
+#navigation ul li:first-child {
+  margin-bottom: 20px;
+}
+
+#navigation ul li:first-child:hover {
+  background-color: transparent;
+}
+
+#navigation ul li:first-child a .icon {
+  font-size: 28px;
+  margin-right: 15px;
+  color: #999;
+}
+
+#navigation ul li:first-child a .icon-title {
+  font-size: 20px;
+  color: #999;
+  font-weight: 600;
+}
+
+#navigation ul li:hover {
+  background-color: rgba(153, 92, 153, 0.7);
+}
+
+#navigation ul li:hover a .icon,
+#navigation ul li:hover a .icon-title {
+  color: #cab6b6;
+}
+
+#navigation ul li:hover:first-child a .icon,
+#navigation ul li:hover:first-child a .icon-title {
+  color: #999;
+}
+/*# sourceMappingURL=dashboardNavbar.module.css.map */

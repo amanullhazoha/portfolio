@@ -1,0 +1,29 @@
+.blogPost {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.blogPost img {
+  height: 250px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.blogPost figcaption {
+  background: #fff;
+  padding: 20px 15px;
+}
+
+.blogPost figcaption h2 {
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.blogPost figcaption p {
+  color: #000;
+  font-size: 16px;
+}
+/*# sourceMappingURL=blogPost.module.css.map */

@@ -43,7 +43,9 @@ const MyInfo = () => (
             ))}
 
             <Col style={{ marginBottom: '30px' }}>
-                <ButtonStyle text="Download resume" iconClass="fa-cloud-download-alt" />
+                <a href="https://drive.google.com/u/0/uc?id=1pjNK3bvXLhj2TtZfnPflo2dlifa9lcZJ&export=download">
+                    <ButtonStyle text="Download resume" iconClass="fa-cloud-download-alt" />
+                </a>
             </Col>
         </Row>
     </Col>

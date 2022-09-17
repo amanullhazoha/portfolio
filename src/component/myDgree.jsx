@@ -2,7 +2,7 @@ import { Col } from 'react-bootstrap';
 import classes from '../scss/myDgree.module.scss';
 
 const MyDgree = ({ education }) => (
-    <Col lg={6} key={education.id}>
+    <Col lg={6}>
         <div className={classes.content}>
             <p className={classes.date}>{education.date}</p>
             <h4>

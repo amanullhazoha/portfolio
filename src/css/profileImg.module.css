@@ -1,0 +1,15 @@
+.profileImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profileImg img {
+  border-radius: 30px;
+  -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+          box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+}
+/*# sourceMappingURL=profileImg.module.css.map */

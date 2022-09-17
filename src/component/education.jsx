@@ -30,7 +30,7 @@ const Education = () => (
 
         <Row>
             {education.map((edu) => (
-                <MyDgree education={edu} />
+                <MyDgree education={edu} key={edu.id} />
             ))}
         </Row>
     </>

@@ -34,7 +34,7 @@ const skillProgress = [
     },
 
     {
-        id: 16533,
+        id: 165334,
         skill: 'Bootstrap',
         percent: 90,
     },
@@ -57,7 +57,7 @@ const Skills = () => (
         <SectionHead heading="My skills" />
         <Row>
             {skillProgress.map((skill) => (
-                <SkillProgress skill={skill} />
+                <SkillProgress skill={skill} key={skill.id} />
             ))}
         </Row>
     </>
