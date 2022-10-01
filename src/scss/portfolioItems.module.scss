@@ -7,16 +7,17 @@
 
     img {
       width: 100%;
-      height: 200px;
+      height: 450px;
       object-fit: cover;
     }
 
-    .portfolioTitle {
+    figcaption {
       top: 0;
       bottom: 0;
       width: 100%;
       height: 100%;
-      background: #ffb400;
+      background: rgba($color: #000000, $alpha: .5);
+      color: #fff;
       position: absolute;
       display: flex;
       justify-content: center;
@@ -24,13 +25,25 @@
       font-size: 20px;
       letter-spacing: 2px;
       text-transform: uppercase;
-      font-weight: 700;
       transition-duration: 0.4s;
       transform: translateX(100%);
+
+      a{
+        margin: 0 15px;
+        padding: 6px 15px;
+        border-radius: 50px;
+        color: #fff;
+        background: #ffb400;
+        font-weight: 500;
+
+        &:hover{
+          background: #393838;
+        }
+      }
     }
 
     &:hover {
-      .portfolioTitle {
+      figcaption {
         transform: translateX(0);
       }
     }
