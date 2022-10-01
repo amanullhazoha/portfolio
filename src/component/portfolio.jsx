@@ -32,6 +32,13 @@ const PortfolioItems = () => {
         },
 
         {
+            id: 12355549,
+            img: 'solasta.png',
+            github: '',
+            live: 'https://solastabd.com/',
+        },
+
+        {
             id: 12869,
             img: 'arsha.png',
             github: 'https://gitlab.com/Amanullhazoha3784/arsha-template',
@@ -62,7 +69,7 @@ const PortfolioItems = () => {
 
                             <figcaption>
                                 <a href={pro.github} target="blank">
-                                    Github
+                                    {pro.github ? `Github` : `No`}
                                 </a>
                                 <a href={pro.live} target="blank">
                                     Live View
