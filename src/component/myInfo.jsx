@@ -43,7 +43,7 @@ const MyInfo = () => (
             ))}
 
             <Col style={{ marginBottom: '30px' }}>
-                <a href="https://drive.google.com/u/0/uc?id=1pjNK3bvXLhj2TtZfnPflo2dlifa9lcZJ&export=download">
+                <a href="https://drive.usercontent.google.com/download?id=1-HfCR7jvKE4FXVVKR6EtKCa33Vs3jhWm&export=download&authuser=0&confirm=t&uuid=c68e197f-fcb4-489f-bfa0-4fe3de8e4c12&at=AC2mKKRvs-ZTTD8YtrjDP2PyUCB_:1690124464815">
                     <ButtonStyle text="Download resume" iconClass="fa-cloud-download-alt" />
                 </a>
             </Col>
