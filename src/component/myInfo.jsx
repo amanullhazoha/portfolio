@@ -8,7 +8,7 @@ const myInfo = [
         info: [
             { key: 'First Name', value: 'Amanullha' },
             { key: 'Last Name', value: 'Zoha' },
-            { key: 'Age', value: '23' },
+            { key: 'Age', value: '25' },
             { key: 'Nationality', value: 'Bangladeshi' },
             { key: 'Freelance', value: 'Available' },
         ],

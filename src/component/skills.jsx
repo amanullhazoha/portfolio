@@ -16,6 +16,18 @@ const skillProgress = [
     },
 
     {
+        id: 123658,
+        skill: 'Next JS',
+        percent: 85,
+    },
+
+    {
+        id: 12365845,
+        skill: 'Redux',
+        percent: 85,
+    },
+
+    {
         id: 12363,
         skill: 'Firebase',
         percent: 50,
@@ -36,6 +48,18 @@ const skillProgress = [
     {
         id: 165334,
         skill: 'Bootstrap',
+        percent: 90,
+    },
+
+    {
+        id: 16533445444,
+        skill: 'Tailwind CSS',
+        percent: 90,
+    },
+
+    {
+        id: 165334454,
+        skill: 'Ant design',
         percent: 90,
     },
 

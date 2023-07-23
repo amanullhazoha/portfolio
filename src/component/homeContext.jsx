@@ -13,16 +13,16 @@ const HomeContent = () => (
             <h2>
                 <Typewriter
                     options={{
-                        strings: ['Web developer', 'Frontend'],
+                        strings: ['Frontend', 'Software Engineer'],
                         autoStart: true,
                         loop: true,
                     }}
                 />
             </h2>
             <p>
-                {`I'm a Bangladesh based frontend web developer & designer focused on crafting clean
-                & user‑friendly experiences, I am passionate about building excellent software that
-                improves the lives of those around me.`}
+                {`As a frontend software engineer, I am dedicated to crafting captivating user experiences and seamless interfaces that bridge the gap between technology and users. My expertise lies in HTML, CSS, and JavaScript, which I use to transform design concepts into functional and visually appealing web applications.
+
+                Collaborating closely with design and backend teams, I ensure that the user interface aligns with the overall vision and meets the needs of our users. I am passionate about staying up-to-date with the latest trends and best practices in frontend development to continuously enhance the performance and efficiency of our digital products.`}
             </p>
             <Link to="/about">
                 <ButtonStyle text="more about me" iconClass="fa-arrow-right" />

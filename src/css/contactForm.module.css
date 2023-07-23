@@ -8,24 +8,12 @@
   border: none;
   border-radius: 50px;
 }
-
-.content .input::-webkit-input-placeholder {
+.content .input::-moz-placeholder {
   text-transform: uppercase;
 }
-
-.content .input:-ms-input-placeholder {
-  text-transform: uppercase;
-}
-
-.content .input::-ms-input-placeholder {
-  text-transform: uppercase;
-}
-
 .content .input::placeholder {
   text-transform: uppercase;
 }
-
 .content .input:focus {
   outline: 1px solid #ffb400;
-}
-/*# sourceMappingURL=contactForm.module.css.map */
+}/*# sourceMappingURL=contactForm.module.css.map */

@@ -4,17 +4,14 @@
   border-radius: 5px;
   margin-bottom: 30px;
 }
-
 .content .number {
   font-size: 50px;
   color: #ffb400;
   font-weight: bold;
 }
-
 .content .number sup {
   font-size: 35px;
 }
-
 .content p {
   font-size: 18px;
   color: #fff;
@@ -22,7 +19,6 @@
   position: relative;
   margin-bottom: 0;
 }
-
 .content p::before {
   content: "";
   position: absolute;
@@ -31,5 +27,4 @@
   width: 30px;
   height: 1px;
   background: #777;
-}
-/*# sourceMappingURL=experience.module.css.map */
+}/*# sourceMappingURL=experience.module.css.map */

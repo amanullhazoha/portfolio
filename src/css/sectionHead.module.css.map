@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,UAAU,EAAE,cAAc;EAC1B,MAAM,EAAE,SAAS;EACjB,SAAS,EAAE,GAAG;EACd,OAAO,EAAE,GAAG;CACb;;AAED,AAAA,YAAY,CAAC;EACX,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,IAAI;EACX,WAAW,EAAE,GAAG;EAChB,cAAc,EAAE,GAAG;EACnB,aAAa,EAAE,IAAI;EACnB,cAAc,EAAE,SAAS;CAC1B",
-    "sources": [
-        "../scss/sectionHead.module.scss"
-    ],
-    "names": [],
-    "file": "sectionHead.module.css"
-}
+{"version":3,"sources":["../scss/sectionHead.module.scss","sectionHead.module.css"],"names":[],"mappings":"AAAA;EACE,0BAAA;EACA,iBAAA;EACA,cAAA;EACA,YAAA;ACCF;;ADEA;EACE,eAAA;EACA,kBAAA;EACA,WAAA;EACA,gBAAA;EACA,mBAAA;EACA,mBAAA;EACA,yBAAA;ACCF","file":"sectionHead.module.css"}

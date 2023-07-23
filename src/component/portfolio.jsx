@@ -4,6 +4,20 @@ import classes from '../scss/portfolioItems.module.scss';
 const PortfolioItems = () => {
     const project = [
         {
+            id: 123954,
+            img: 'nagalay.png',
+            github: '',
+            live: 'https://nagalay.com/',
+        },
+
+        {
+            id: 123954,
+            img: 'rizital.svg',
+            github: '',
+            live: 'https://rizital.com/',
+        },
+
+        {
             id: 123,
             img: 'coza.png',
             github: 'https://github.com/amanullhazoha/e-commarce-coza',

@@ -4,7 +4,7 @@ import classes from '../scss/experience.module.scss';
 const experience = [
     {
         id: '1dkfj',
-        count: 1,
+        count: 2,
         titleFirst: 'YEARS OF',
         titleLast: 'EXPERIENCE',
     },
@@ -25,7 +25,7 @@ const experience = [
 
     {
         id: '1dkfjds',
-        count: 0,
+        count: 1,
         titleFirst: 'AWARD',
         titleLast: 'WON',
     },
