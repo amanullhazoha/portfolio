@@ -23,7 +23,7 @@
     color: hsla(0, 0%, 100%, 0.07);
   }
 
-  @media screen and(max-width: 768px) {
+  @media screen and (max-width: 768px) {
     padding: 0;
 
     .titleBg {
@@ -31,11 +31,11 @@
     }
   }
 
-  @media screen and(max-width: 450px) {
+  @media screen and (max-width: 450px) {
     font-size: 45px;
   }
 
-  @media screen and(max-width: 375px) {
+  @media screen and (max-width: 375px) {
     font-size: 30px;
   }
 }
