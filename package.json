@@ -22,8 +22,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
+    "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "npm install -D prettier && npm install -D babel-eslint && npm i install-peerdeps --dev eslint-config-airbnb@^18.2.1 && npm install -D eslint-config-prettier eslint-plugin-prettier"
@@ -51,7 +51,8 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.5.0",
-    "sass": "^1.92.1"
+    "sass": "^1.92.1",
+    "cross-env": "^7.0.3"
   },
   "engines": {
     "node": "22.x"
