@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import LanguageSelect from './languageSelect';
 import classes from '../scss/header.module.scss';
 
 const Header = () => {
@@ -53,6 +54,8 @@ const Header = () => {
                         <i className="fas fa-edit" />
                     </NavLink>
                 </li>
+
+                <LanguageSelect />
             </ul>
 
             <button type="button" className={classes.toggler} onClick={handelToggler}>

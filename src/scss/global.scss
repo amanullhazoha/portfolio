@@ -27,9 +27,24 @@ li {
   list-style: none;
 }
 
+body {
+  top: 0 !important;
+}
+
 .dashboardToggleActive {
   width: calc(100% - 50px) !important;
   left: 50px !important;
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+.goog-te-gadget,
+.goog-te-combo,
+.skiptranslate,
+iframe.goog-te-menu-frame {
+  display: none !important;
 }
 
 @media screen and(max-width: 768px) {
